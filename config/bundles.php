@@ -12,4 +12,7 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
+    SimpleBus\SymfonyBridge\SimpleBusCommandBusBundle::class => ['all' => true],
+    SimpleBus\SymfonyBridge\SimpleBusEventBusBundle::class => ['all' => true],
+    SimpleBus\SymfonyBridge\DoctrineOrmBridgeBundle::class => ['all' => true],
 ];

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+    db:
+        container_name: "sf_forms_db"
+        image: mysql:5.7
+        volumes:
+            - .:/app
+        environment:
+            MYSQL_ROOT_PASSWORD: 'root'
+            MYSQL_DATABASE: 'db'
+            MYSQL_USER: 'user'
+            MYSQL_PASSWORD: 'P455W0RD'
+            TERM: '$TERM'
+        ports:
+            - '3306:3306'

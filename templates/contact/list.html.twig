@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">Approved Contacts</h1>
+
+    {% if contacts|length > 0 %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Organization</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for contact in contacts %}
+                    <tr>
+                        <td>{{ contact.fullName }}</td>
+                        <td>{{ contact.email }}</td>
+                        <td>{{ contact.organizationId ? organizationNames[contact.organizationId.toString]|default('') }}</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a href="{{ path('contact_show', {id: contact.id}) }}" class="btn btn-success btn-sm">
+                                    <i class="glyphicon glyphicon-search"></i> Show
+                                </a>
+                                <a href="{{ path('contact_edit', {id: contact.id}) }}" class="btn btn-primary btn-sm">
+                                    <i class="glyphicon glyphicon-edit"></i> Edit
+                                </a>
+                                <a href="{{ path('contact_delete', {id: contact.id}) }}" class="btn btn-danger btn-sm">
+                                    <i class="glyphicon glyphicon-trash"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>You're all alone...</p>
+    {% endif %}
+
+    <a href="{{ path('proposal_propose') }}" class="btn btn-default">
+        <i class="glyphicon glyphicon-plus"></i> Propose Contact
+    </a>
+{% endblock %}

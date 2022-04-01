@@ -1,19 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8"/>
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {# Run `composer require symfony/webpack-encore-bundle` to start using Symfony UX #}
+
         {% block stylesheets %}
-            {{ encore_entry_link_tags('app') }}
+            <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}"/>
+            <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker3.css') }}"/>
+            <link rel="stylesheet" href="{{ asset('css/style.css') }}"/>
         {% endblock %}
 
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
     </head>
+
     <body>
-        {% block body %}{% endblock %}
+
+        <div class="container">
+            <header>
+                <nav class="navbar navbar-default">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="{{ path('homepage') }}">Contacts</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            {% set route = app.request.attributes.get('_route') %}
+                            <li{% if route == 'proposal_propose' %} class="active"{% endif %}>
+                                <a href="{{ path('proposal_propose') }}">Propose</a>
+                            </li>
+                            <li{% if route starts with 'proposal_' and route != 'proposal_propose'%} class="active"{% endif %}>
+                                <a href="{{ path('proposal_list') }}">Proposals</a>
+                            </li>
+                            <li{% if route starts with 'contact_' %} class="active"{% endif %}>
+                                <a href="{{ path('contact_list') }}">Contacts</a>
+                            </li>
+                            <li {% if route starts with 'organization_' %} class="active"{% endif %}>
+                                <a href="{{ path('organization_list') }}">Organizations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="row">
+                <section class="col-sm-12" id="content" vocab="http://schema.org/" typeof="Content">
+                    {% block body %}{% endblock %}
+                </section>
+            </div>
+
+            <footer class="footer">
+                {% block footer %}
+                    <div class="pull-left">
+                        <p>&copy;  {{ 'now'|date('Y') }} Symfony certification</p>
+                    </div>
+                {% endblock %}
+            </footer>
+        </div>
+
+    {% block javascripts %}
+        <script type="text/javascript" src="{{ asset('js/jquery-3.1.0.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/bootstrap.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
+        <script type="text/javascript">
+            // $('.bootstrap-datepicker').datepicker({
+            //     format: 'dd/mm/yyyy',
+            // });
+        </script>
+    {% endblock %}
     </body>
 </html>

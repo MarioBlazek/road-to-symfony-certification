@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">Proposed Contacts</h1>
+
+    {% if contacts|length > 0 %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for contact in contacts %}
+                    <tr>
+                        <td>{{ contact.fullName }}</td>
+                        <td>{{ contact.email }}</td>
+                        <td>
+                            <a href="{{ path('proposal_show', {id: contact.id}) }}" class="btn btn-primary btn-sm">
+                                <i class="glyphicon glyphicon-search"></i> Check
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No new contact proposals. \o/</p>
+    {% endif %}
+
+    <a href="{{ path('proposal_propose') }}" class="btn btn-default">
+        <i class="glyphicon glyphicon-plus"></i> Propose Contact
+    </a>
+{% endblock %}

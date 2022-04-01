@@ -1,20 +1,25 @@
 doctrine:
     dbal:
         url: '%env(resolve:DATABASE_URL)%'
-
+        types:
+            contact_id: "App\\Repository\\ORM\\Type\\ORMContactIdType"
+            contact_ids: "App\\Repository\\ORM\\Type\\ORMContactIdsType"
+            organization_id: "App\\Repository\\ORM\\Type\\ORMOrganizationIdType"
+            email: "App\\Repository\\ORM\\Type\\ORMEmailType"
+            phone_number: "App\\Repository\\ORM\\Type\\ORMPhoneNumberType"
         # IMPORTANT: You MUST configure your server version,
         # either here or in the DATABASE_URL env var (see .env file)
         #server_version: '13'
     orm:
         auto_generate_proxy_classes: true
-        naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
-        auto_mapping: true
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_mapping: false
         mappings:
-            App:
+            domain:
+                type: xml
+                dir: "%kernel.project_dir%/config/doctrine"
+                prefix: "App\\Domain"
                 is_bundle: false
-                dir: '%kernel.project_dir%/src/Entity'
-                prefix: 'App\Entity'
-                alias: App
 
 when@test:
     doctrine:

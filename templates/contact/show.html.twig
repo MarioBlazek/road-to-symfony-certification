@@ -1,0 +1,65 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">{{ contact.fullName }}</h1>
+
+    <div class="form-horizontal">
+        {{ _self.beginFormRow('First name') }}
+            {{ contact.firstName }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Last name') }}
+            {{ contact.lastName }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Date of birth') }}
+            {{ contact.dateOfBirth|date('d/m/Y') }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Email') }}
+            {{ contact.email }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Phone number') }}
+            {{ contact.phoneNumber }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Address') }}
+            {% if contact.address.street %}
+                <p>{{ contact.address.street }}</p>
+            {% endif %}
+            {% if contact.address.postalCode or contact.address.city %}
+                <p>{{ contact.address.postalCode }} {{ contact.address.city }}</p>
+            {% endif %}
+            {% if contact.address.countryCode %}
+                <p>{{ contact.address.countryCode }}</p>
+            {% endif %}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Notes') }}
+            {{ contact.notes }}
+        {{ _self.endFormRow() }}
+    </div>
+
+    <div class="btn-group" role="group">
+        <a href="{{ path('contact_edit', {id: contact.id}) }}" class="btn btn-default">
+            Modify
+        </a>
+        <a href="{{ path('contact_delete', {id: contact.id}) }}" class="btn btn-danger">
+            Delete
+        </a>
+    </div>
+{% endblock %}
+
+{% macro beginFormRow(label) %}
+    <div class="form-group">
+        <div class="col-sm-2 control-label">{{ label }}</div>
+        <div class="col-sm-10">
+            <div class="form-control-static">
+{% endmacro %}
+
+{% macro endFormRow(label) %}
+            </div>
+        </div>
+    </div>
+{% endmacro %}

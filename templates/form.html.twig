@@ -1,0 +1,29 @@
+{{ form_start(form) }}
+
+    {{ form_row(form.firstName) }}
+
+    {{ form_row(form.lastName) }}
+
+    {{ form_row(form.dateOfBirth) }}
+
+    {{ form_row(form.email) }}
+
+    <fieldset>
+        <legend>Contact Information</legend>
+        {{ form_row(form.address.street) }}
+        {{ form_row(form.address.postalCode) }}
+        {{ form_row(form.address.city) }}
+        {{ form_row(form.address.countryCode) }}
+    </fieldset>
+
+    {{ form_row(form.phoneNumber) }}
+
+    <fieldset>
+        <legend>Additional Information</legend>
+        {{ form_row(form.organizationId) }}
+        {{ form_row(form.notes) }}
+    </fieldset>
+
+    {{ form_row(form.submit) }}
+
+{{ form_end(form) }}

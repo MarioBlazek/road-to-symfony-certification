@@ -1,0 +1,14 @@
+.footer {
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding-top: 10px;
+    color: #999;
+}
+
+.control-label {
+    font-weight: bold;
+}
+
+.datepicker div {
+    display: block;
+}

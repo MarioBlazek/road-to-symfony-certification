@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">Organizations</h1>
+
+    {% if organizations|length > 0 %}
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for organization in organizations %}
+                    <tr>
+                        <td>{{ organization.name }}</td>
+                        <td>{{ organization.email }}</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a href="{{ path('organization_show', {id: organization.id}) }}" class="btn btn-success btn-sm">
+                                    <i class="glyphicon glyphicon-search"></i> Show
+                                </a>
+                                <a href="{{ path('organization_edit', {id: organization.id}) }}" class="btn btn-primary btn-sm">
+                                    <i class="glyphicon glyphicon-edit"></i> Edit
+                                </a>
+                                <a href="{{ path('organization_delete', {id: organization.id}) }}" class="btn btn-danger btn-sm">
+                                    <i class="glyphicon glyphicon-trash"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No organizations yet.</p>
+    {% endif %}
+
+    <a href="{{ path('organization_create') }}" class="btn btn-default">
+        <i class="glyphicon glyphicon-plus"></i> Create Organization
+    </a>
+{% endblock %}

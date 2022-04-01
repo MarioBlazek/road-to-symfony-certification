@@ -220,6 +220,15 @@
             "config/packages/sensio_framework_extra.yaml"
         ]
     },
+    "simple-bus/doctrine-orm-bridge": {
+        "version": "v6.3.1"
+    },
+    "simple-bus/message-bus": {
+        "version": "v6.3.1"
+    },
+    "simple-bus/symfony-bridge": {
+        "version": "v6.3.1"
+    },
     "symfony/asset": {
         "version": "v5.4.3"
     },
@@ -440,6 +449,9 @@
     "symfony/polyfill-php81": {
         "version": "v1.25.0"
     },
+    "symfony/polyfill-uuid": {
+        "version": "v1.25.0"
+    },
     "symfony/process": {
         "version": "v5.4.5"
     },
@@ -535,6 +547,9 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
+    },
+    "symfony/uid": {
+        "version": "v5.4.3"
     },
     "symfony/validator": {
         "version": "5.4",

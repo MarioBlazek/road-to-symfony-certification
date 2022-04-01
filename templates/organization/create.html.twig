@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">New Organization</h1>
+
+    {{ form_start(form, {'attr': {'class': 'form-horizontal'} }) }}
+
+        {{ form_row(form.name) }}
+
+        {{ form_row(form.phoneNumber) }}
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            {{ form_row(form.email) }}
+
+            {{ form_row(form.address.street) }}
+
+            {{ form_row(form.address.postalCode) }}
+
+            {{ form_row(form.address.city) }}
+
+            {{ form_row(form.address.countryCode) }}
+        </fieldset>
+
+        {{ form_row(form.submit) }}
+
+    {{ form_end(form) }}
+{% endblock %}

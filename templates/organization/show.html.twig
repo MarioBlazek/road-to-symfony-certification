@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">{{ organization.name }}</h1>
+
+    <div class="form-horizontal">
+        {{ _self.beginFormRow('Name') }}
+            {{ organization.name }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Email') }}
+            {{ organization.email }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Phone number') }}
+            {{ organization.phoneNumber }}
+        {{ _self.endFormRow() }}
+
+        {{ _self.beginFormRow('Address') }}
+            {% if organization.address.street %}
+                <p>{{ organization.address.street }}</p>
+            {% endif %}
+            {% if organization.address.postalCode or organization.address.city %}
+                <p>{{ organization.address.postalCode }} {{ organization.address.city }}</p>
+            {% endif %}
+            {% if organization.address.countryCode %}
+                <p>{{ organization.address.countryCode }}</p>
+            {% endif %}
+        {{ _self.endFormRow() }}
+    </div>
+
+    <div class="btn-group" role="group">
+        <a href="{{ path('organization_edit', {id: organization.id}) }}" class="btn btn-default">
+            Modify
+        </a>
+        <a href="{{ path('organization_delete', {id: organization.id}) }}" class="btn btn-danger">
+            Delete
+        </a>
+    </div>
+{% endblock %}
+
+{% macro beginFormRow(label) %}
+    <div class="form-group">
+        <div class="col-sm-2 control-label">{{ label }}</div>
+        <div class="col-sm-10">
+            <div class="form-control-static">
+{% endmacro %}
+
+{% macro endFormRow(label) %}
+            </div>
+        </div>
+    </div>
+{% endmacro %}

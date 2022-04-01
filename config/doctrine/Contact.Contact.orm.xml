@@ -1,0 +1,22 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping
+                   https://raw.github.com/doctrine/doctrine2/master/doctrine-mapping.xsd">
+
+    <entity name="App\Domain\Contact\Contact" repository-class="App\Repository\ORMContactRepository">
+        <id name="id" type="contact_id">
+            <generator strategy="NONE"/>
+        </id>
+        <field name="mergedIds" type="contact_ids"/>
+        <field name="approved" type="boolean"/>
+        <field name="firstName" type="string"/>
+        <field name="lastName" type="string"/>
+        <field name="dateOfBirth" type="date" nullable="true"/>
+        <field name="email" type="email" nullable="true"/>
+        <field name="phoneNumber" type="phone_number" nullable="true"/>
+        <field name="organizationId" type="organization_id" nullable="true"/>
+        <field name="notes" type="text" nullable="true"/>
+        <embedded name="address" class="App\Domain\Value\Address"/>
+    </entity>
+
+</doctrine-mapping>
