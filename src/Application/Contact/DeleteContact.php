@@ -6,7 +6,7 @@ namespace App\Application\Contact;
 
 use App\Domain\Contact\ContactId;
 
-class DeleteContact
+final class DeleteContact
 {
     private ContactId $contactId;
 

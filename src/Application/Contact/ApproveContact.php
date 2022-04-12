@@ -6,7 +6,7 @@ namespace App\Application\Contact;
 
 use App\Domain\Contact\ContactId;
 
-class ApproveContact
+final class ApproveContact
 {
     private ContactId $contactId;
 

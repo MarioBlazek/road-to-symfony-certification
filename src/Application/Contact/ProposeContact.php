@@ -6,7 +6,7 @@ namespace App\Application\Contact;
 
 use App\Domain\Contact\ContactId;
 
-class ProposeContact
+final class ProposeContact
 {
     private ContactId $contactId;
     private array $fieldValues;

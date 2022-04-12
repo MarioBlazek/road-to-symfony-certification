@@ -11,6 +11,7 @@ use Symfony\Component\Form\Extension\Core\Type\CountryType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\Form\FormInterface;
+use Symfony\Component\Validator\Constraints as Assert;
 
 class AddressType extends AbstractType implements DataMapperInterface
 {
@@ -22,10 +23,12 @@ class AddressType extends AbstractType implements DataMapperInterface
 
         $builder->add('postalCode', TextType::class, [
             'required' => false,
+            'constraints' => new Assert\NotBlank(),
         ]);
 
         $builder->add('city', TextType::class, [
             'required' => false,
+            'constraints' => new Assert\NotBlank(),
         ]);
 
         $builder->add('countryCode', CountryType::class, [

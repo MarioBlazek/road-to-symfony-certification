@@ -6,7 +6,7 @@ namespace App\Application\Contact;
 
 use App\Domain\Contact\ContactId;
 
-class MergeContacts
+final class MergeContacts
 {
     private ContactId $sourceContactId;
     private array $sourceFieldValues;

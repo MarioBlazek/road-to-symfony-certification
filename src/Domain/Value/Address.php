@@ -11,7 +11,7 @@ class Address
     private string $city;
     private string $countryCode;
 
-    public function __construct(string $street,string $postalCode,string $city,string $countryCode)
+    public function __construct(string $street, string $postalCode, string $city, string $countryCode)
     {
         $this->street = $street;
         $this->postalCode = $postalCode;

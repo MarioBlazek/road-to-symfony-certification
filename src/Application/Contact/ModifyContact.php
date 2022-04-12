@@ -6,7 +6,7 @@ namespace App\Application\Contact;
 
 use App\Domain\Contact\ContactId;
 
-class ModifyContact
+final class ModifyContact
 {
     private ContactId  $contactId;
     private array $fieldValues;

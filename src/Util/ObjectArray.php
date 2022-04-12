@@ -6,7 +6,7 @@ namespace App\Util;
 
 final class ObjectArray
 {
-    public static function map($method, array $objects)
+    public static function map($method, array $objects): array
     {
         return array_map(
             static function ($object) use ($method) {
