@@ -1,0 +1,23 @@
+{# errors Symfony\Component\Validator\ConstraintViolationListInterface #}
+{# error Symfony\Component\Validator\ConstraintViolationInterface #}
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="page-header">{{ title|default('Data validation') }}</h1>
+
+    {% if errors|length > 0 %}
+        {% dump errors %}
+        <div class="alert alert-danger" role="alert">
+            <ul>
+                {% for error in errors %}
+                    <li>{{ error.message }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% else %}
+        <div class="alert alert-success" role="alert">
+            Bombica
+        </div>
+    {% endif %}
+{% endblock %}

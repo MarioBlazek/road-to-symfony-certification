@@ -5,6 +5,8 @@ declare(strict_types=1);
 namespace App\Domain\Value;
 
 use JetBrains\PhpStorm\Pure;
+use Symfony\Component\Validator\Mapping\ClassMetadata;
+use Symfony\Component\Validator\Constraints as Assert;
 
 class Email
 {
@@ -13,6 +15,11 @@ class Email
     #[Pure] public static function fromString(string $string): static
     {
         return new static($string);
+    }
+
+    public static function loadValidatorMetadata(ClassMetadata $metadata): void
+    {
+        $metadata->addPropertyConstraint('string', new Assert\Email());
     }
 
     public function toString(): string

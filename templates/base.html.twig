@@ -45,6 +45,26 @@
                             <li {% if route starts with 'organization_' %} class="active"{% endif %}>
                                 <a href="{{ path('organization_list') }}">Organizations</a>
                             </li>
+                            <li {% if route starts with 'validation_' %} class="active"{% endif %}>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Validation</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="{{ path('validation_attribute') }}">Attribute based</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_php') }}">PHP based</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_callback') }}">Callback validator</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_custom') }}">Custom constraint</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_groups') }}">Validation groups</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_sequence') }}">Validation sequence</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_scalar') }}">Scalar values</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="{{ path('validation_array') }}">Array values</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </nav>
