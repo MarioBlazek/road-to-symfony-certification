@@ -6,6 +6,9 @@
 parameters:
 
 services:
+    _instanceof:
+        App\Visitor\ValueObjectVisitor:
+            tags: ['app.value_object_visitor']
     # default configuration for services in *this* file
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.
@@ -35,3 +38,11 @@ services:
             - { name: command_handler, handles: 'App\Application\Contact\ModifyContact', method: handleModifyContact }
             - { name: command_handler, handles: 'App\Application\Contact\MergeContacts', method: handleMergeContacts }
             - { name: command_handler, handles: 'App\Application\Contact\DeleteContact', method: handleDeleteContact }
+
+#    App\Visitor\Email:
+#        tags:
+#            - { name: app.value_object_visitor }
+#
+#    App\Visitor\PhoneNumber:
+#        tags:
+#            - { name: app.value_object_visitor }

@@ -65,6 +65,12 @@
                                     <a class="dropdown-item" href="{{ path('validation_array') }}">Array values</a>
                                 </div>
                             </li>
+                            <li {% if route starts with 'dependency_' %} class="active"{% endif %}>
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dependency Injection</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="{{ path('dependency_injection_compiler_pass') }}">Compiler pass</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </nav>
