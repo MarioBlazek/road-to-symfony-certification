@@ -192,6 +192,8 @@
 * [https://web.dev/http-cache/](https://web.dev/http-cache/)
 
 
+#### Symfony related links
+
 * Cache types (browser, proxies and reverse-proxies) - [https://symfony.com/doc/current/http_cache.html](https://symfony.com/doc/current/http_cache.html)
 * Expiration (Expires, Cache-Control) - [https://symfony.com/doc/current/http_cache/expiration.html](https://symfony.com/doc/current/http_cache/expiration.html)
 * Validation (ETag, Last-Modified) - [https://symfony.com/doc/current/http_cache/validation.html](https://symfony.com/doc/current/http_cache/validation.html)
