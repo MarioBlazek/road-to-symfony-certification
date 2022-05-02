@@ -184,12 +184,20 @@
 
 ### HTTP Caching
 
-* Cache types (browser, proxies and reverse-proxies)
-* Expiration (Expires, Cache-Control)
-* Validation (ETag, Last-Modified)
-* Client side caching
-* Server side caching
-* Edge Side Includes
+#### General read about HTTP caching
+* [https://www.mnot.net/cache_docs/](https://www.mnot.net/cache_docs/)
+* [https://csswizardry.com/2019/03/cache-control-for-civilians/](https://csswizardry.com/2019/03/cache-control-for-civilians/)
+* [https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
+* [https://tomayko.com/blog/2008/things-caches-do](https://tomayko.com/blog/2008/things-caches-do)
+* [https://web.dev/http-cache/](https://web.dev/http-cache/)
+
+
+* Cache types (browser, proxies and reverse-proxies) - [https://symfony.com/doc/current/http_cache.html](https://symfony.com/doc/current/http_cache.html)
+* Expiration (Expires, Cache-Control) - [https://symfony.com/doc/current/http_cache/expiration.html](https://symfony.com/doc/current/http_cache/expiration.html)
+* Validation (ETag, Last-Modified) - [https://symfony.com/doc/current/http_cache/validation.html](https://symfony.com/doc/current/http_cache/validation.html)
+* Client side caching - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#private_browser_caches](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#private_browser_caches)
+* Server side caching - [https://symfony.com/doc/current/http_cache.html#caching-with-a-gateway-cache](https://symfony.com/doc/current/http_cache.html#caching-with-a-gateway-cache)
+* Edge Side Includes - [https://symfony.com/doc/current/http_cache/esi.html](https://symfony.com/doc/current/http_cache/esi.html)
 
 ### Console
 
