@@ -31,6 +31,7 @@
 
 ## Introduction
 
+More info coming soon.
 
 ### Why this repo?
 
@@ -38,9 +39,9 @@
 ### Features
 
 
-
 ## Exam Topics
 
+This is an official topics list that has been published by Symfony. You can find them also on their [website](https://certification.symfony.com/).
 
 ### PHP
 
@@ -203,44 +204,102 @@
 
 ### Console
 
-* Built-in commands
-* Custom commands
-* Configuration
-* Options and arguments
+* Built-in commands - [https://symfony.com/doc/current/components/console/usage.html#built-in-commands](https://symfony.com/doc/current/components/console/usage.html#built-in-commands)
+* Custom commands - [https://symfony.com/doc/current/console.html#creating-a-command](https://symfony.com/doc/current/console.html#creating-a-command)
+* Configuration - [https://symfony.com/doc/current/console.html#configuring-the-command](https://symfony.com/doc/current/console.html#configuring-the-command)
+* Options and arguments - [https://symfony.com/doc/current/console/input.html](https://symfony.com/doc/current/console/input.html)
 * Input and Output objects
+  * Input - [https://symfony.com/doc/current/console.html#console-input](https://symfony.com/doc/current/console.html#console-input)
+  * Output - [https://symfony.com/doc/current/console.html#console-output](https://symfony.com/doc/current/console.html#console-output)
 * Built-in helpers
-* Console events
-* Verbosity levels
+  * Question Helper - [https://symfony.com/doc/current/components/console/helpers/questionhelper.html](https://symfony.com/doc/current/components/console/helpers/questionhelper.html)
+  * Formatter Helper - [https://symfony.com/doc/current/components/console/helpers/formatterhelper.html](https://symfony.com/doc/current/components/console/helpers/formatterhelper.html)
+  * Progress Bar - [https://symfony.com/doc/current/components/console/helpers/progressbar.html](https://symfony.com/doc/current/components/console/helpers/progressbar.html)
+  * Table - [https://symfony.com/doc/current/components/console/helpers/table.html](https://symfony.com/doc/current/components/console/helpers/table.html)
+  * Debug Formatter Helper - [https://symfony.com/doc/current/components/console/helpers/debug_formatter.html](https://symfony.com/doc/current/components/console/helpers/debug_formatter.html)
+  * Cursor Helper - [https://symfony.com/doc/current/components/console/helpers/cursor.html](https://symfony.com/doc/current/components/console/helpers/cursor.html)
+* Console events - [https://symfony.com/doc/current/components/console/events.html](https://symfony.com/doc/current/components/console/events.html)
+* Verbosity levels - [https://symfony.com/doc/current/console/verbosity.html](https://symfony.com/doc/current/console/verbosity.html)
 
 ### Automated Tests
 
-* Unit tests with PHPUnit
-* Functional tests with PHPUnit
-* Client object
-* Crawler object
-* Profiler object
-* Framework objects access
-* Client configuration
-* Request and response objects introspection
-* PHPUnit bridge
-* Handling legacy deprecated code
+* Unit tests with PHPUnit - [https://symfony.com/doc/current/testing.html#unit-tests](https://symfony.com/doc/current/testing.html#unit-tests)
+* Functional tests with PHPUnit - [https://symfony.com/doc/current/testing.html#integration-tests](https://symfony.com/doc/current/testing.html#integration-tests)
+* Client object - [https://symfony.com/doc/current/testing.html#write-your-first-application-test](https://symfony.com/doc/current/testing.html#write-your-first-application-test)
+* Crawler object - [https://symfony.com/doc/current/testing/dom_crawler.html](https://symfony.com/doc/current/testing/dom_crawler.html)
+* Profiler object - [https://symfony.com/doc/current/testing/profiling.html](https://symfony.com/doc/current/testing/profiling.html)
+* Framework objects access - [https://symfony.com/doc/current/testing.html#retrieving-services-in-the-test](https://symfony.com/doc/current/testing.html#retrieving-services-in-the-test)
+* Client configuration - [https://symfony.com/doc/current/components/browser_kit.html#creating-a-client](https://symfony.com/doc/current/components/browser_kit.html#creating-a-client)
+* Request and response objects introspection - [https://symfony.com/doc/current/testing.html#making-requests](https://symfony.com/doc/current/testing.html#making-requests)
+* PHPUnit bridge - [https://symfony.com/doc/current/components/phpunit_bridge.html](https://symfony.com/doc/current/components/phpunit_bridge.html)
+* Handling legacy deprecated code - [https://symfony.com/doc/current/components/phpunit_bridge.html#write-assertions-about-deprecations](https://symfony.com/doc/current/components/phpunit_bridge.html#write-assertions-about-deprecations)
 
 ### Miscellaneous
 
 * Configuration (including DotEnv and ExpressionLanguage components)
-* Error handling
+  * Configuration - [https://symfony.com/doc/current/configuration.html](https://symfony.com/doc/current/configuration.html)
+  * DotEnv - [https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables](https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables)
+  * ExpressionLanguage - [https://symfony.com/doc/current/components/expression_language.html](https://symfony.com/doc/current/components/expression_language.html)
+* Error handling - [https://symfony.com/doc/current/controller/error_pages.html](https://symfony.com/doc/current/controller/error_pages.html)
 * Code debugging
-* Deployment best practices
+* Deployment best practices - [https://symfony.com/doc/current/deployment.html](https://symfony.com/doc/current/deployment.html)
 * Cache, Process and Serializer components
-* Messenger component
+  * Cache - [https://symfony.com/doc/current/cache.html](https://symfony.com/doc/current/cache.html)
+  * Process - [https://symfony.com/doc/current/components/process.html](https://symfony.com/doc/current/components/process.html)
+  * Serializer - [https://symfony.com/doc/current/serializer.html](https://symfony.com/doc/current/serializer.html)
+* Messenger component - [https://symfony.com/doc/current/components/messenger.html](https://symfony.com/doc/current/components/messenger.html)
 * Mime and Mailer components
+  * Mime - [https://symfony.com/doc/current/components/mime.html](https://symfony.com/doc/current/components/mime.html) 
+  * Mailer - [https://symfony.com/doc/current/mailer.html](https://symfony.com/doc/current/mailer.html) 
 * Filesystem and Finder components
-* Lock component
-* Web Profiler, Web Debug Toolbar and Data collectors
-* Internationalization and localization (and Intl component)
-* Runtime component
+  * Filesystem - [https://symfony.com/doc/current/components/filesystem.html](https://symfony.com/doc/current/components/filesystem.html)
+  * Finder - [https://symfony.com/doc/current/components/finder.html](https://symfony.com/doc/current/components/finder.html)
+* Lock component - [https://symfony.com/doc/current/components/lock.html](https://symfony.com/doc/current/components/lock.html)
+* Web Profiler, Web Debug Toolbar and Data collectors - [https://symfony.com/doc/current/profiler.html](https://symfony.com/doc/current/profiler.html)
+* Internationalization and localization (and Intl component) - [https://symfony.com/doc/current/translation.html](https://symfony.com/doc/current/translation.html)
+* Runtime component - [https://symfony.com/doc/current/components/runtime.html](https://symfony.com/doc/current/components/runtime.html)
 
 ## About the exam
+
+To take the exam, you should buy the exam voucher. The usual price is 250 euros. However, Symfony offers some discounts about two times a year. Usually, it is on Black Friday, and sometimes mid-June or whenever the Symfony exam version is announced. Deals go up to 40%, so I recommend that you aim to buy a voucher at that time. 
+
+### Buying a voucher
+
+After successful checkout, you should see an email with "Order Confirmation and Vouchers for the Symfony Certification Exam" subject in your inbox. The contents of the email body should be something like this:
+
+![Successful voucher order](assets/voucher_order.png)
+
+If you are already a member of SymfonyConnect, just navigate [https://certification.symfony.com/manager/voucher](https://certification.symfony.com/manager/voucher)(step 3), select the relevant Symfony version from the dropdown and paste the voucher code inside the input. That's it, you are ready to schedule the exam date. 
+
+### Scheduling exam date
+
+Once you are prepared and feel comfortable taking the exam, go to the "My Vouchers" section and select the date and time of your exam. I suggest that you schedule the exam in the morning rather than afternoon or evening because you will be fresh and full of energy after the night's sleep. This is how the scheduled exam for looks like:
+
+![Schedule exam form](assets/schedule_exam_form.png)
+
+Shortly after your date and time confirmation, Symfony should email you the confirmation notice and a check requirements link. I recommend testing your exam environment on that link to eliminate any late surprises before the exam. Also, be advised that only the Google Chrome browser is supported.
+
+![Scheduled exam email](assets/scheduled_exam_email.jpg)
+
+In the "My Vouchers" section, there should be a piece of information about the scheduled exam, with the additional link, which you will access at the exam time.
+
+![Scheduled exam](assets/scheduled_exam.jpg)
+
+### General overview
+
+More info coming soon.
+
+### Successful exam delivery
+
+After the successful exam delivery, you should receive an official email from Symfony about your exam result in a few business days. Here is an example of that email:
+
+![Successfully certified](assets/certified.jpg)
+
+Also, in the "My Exams History" you should be able to see the results:
+
+![Exam history](assets/exam_history.png)
+
+That's about it. Congratulations on getting certified :).
 
 ## Changelog
 
