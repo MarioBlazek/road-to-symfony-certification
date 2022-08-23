@@ -159,29 +159,29 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Dependency Injection
 
-* Service container - [https://symfony.com/doc/current/service_container.html](https://symfony.com/doc/current/service_container.html)
+* Service container - [https://symfony.com/doc/6.0/service_container.html](https://symfony.com/doc/6.0/service_container.html)
 * Built-in services
 * Configuration parameters
 * Services registration
-* Tags - [https://symfony.com/doc/current/service_container/tags.html](https://symfony.com/doc/current/service_container/tags.html)
+* Tags - [https://symfony.com/doc/6.0/service_container/tags.html](https://symfony.com/doc/6.0/service_container/tags.html)
 * Semantic configuration
-* Factories - [https://symfony.com/doc/current/service_container/factories.html](https://symfony.com/doc/current/service_container/factories.html)
-* Compiler passes - [https://symfony.com/doc/current/service_container/compiler_passes.html](https://symfony.com/doc/current/service_container/compiler_passes.html)
-* Services autowiring - [https://symfony.com/doc/current/service_container/autowiring.html](https://symfony.com/doc/current/service_container/autowiring.html)
+* Factories - [https://symfony.com/doc/6.0/service_container/factories.html](https://symfony.com/doc/6.0/service_container/factories.html)
+* Compiler passes - [https://symfony.com/doc/6.0/service_container/compiler_passes.html](https://symfony.com/doc/6.0/service_container/compiler_passes.html)
+* Services autowiring - [https://symfony.com/doc/6.0/service_container/autowiring.html](https://symfony.com/doc/6.0/service_container/autowiring.html)
 
 ### Security
 
-* Authentication - [https://symfony.com/doc/current/security.html#authenticating-users](https://symfony.com/doc/current/security.html#authenticating-users)
-* Authorization - [https://symfony.com/doc/current/security.html#access-control-authorization](https://symfony.com/doc/current/security.html#access-control-authorization)
-* Configuration - [https://symfony.com/doc/current/reference/configuration/security.html](https://symfony.com/doc/current/reference/configuration/security.html)
-* Providers - [https://symfony.com/doc/current/security.html#loading-the-user-the-user-provider](https://symfony.com/doc/current/security.html#loading-the-user-the-user-provider)
-* Firewalls - [https://symfony.com/doc/current/security.html#the-firewall](https://symfony.com/doc/current/security.html#the-firewall)
-* Users - [https://symfony.com/doc/current/security.html#the-user](https://symfony.com/doc/current/security.html#the-user)
-* Password hashers - [https://symfony.com/doc/current/security.html#registering-the-user-hashing-passwords](https://symfony.com/doc/current/security.html#registering-the-user-hashing-passwords)
-* Roles - [https://symfony.com/doc/current/security.html#roles](https://symfony.com/doc/current/security.html#roles)
-* Access Control Rules - [https://symfony.com/doc/current/security/access_control.html](https://symfony.com/doc/current/security/access_control.html)
-* Authenticators - [https://symfony.com/doc/current/security/custom_authenticator.html](https://symfony.com/doc/current/security/custom_authenticator.html)
-* Voters and voting strategies - [https://symfony.com/doc/current/security/voters.html](https://symfony.com/doc/current/security/voters.html)
+* Authentication - [https://symfony.com/doc/6.0/security.html#authenticating-users](https://symfony.com/doc/6.0/security.html#authenticating-users)
+* Authorization - [https://symfony.com/doc/6.0/security.html#access-control-authorization](https://symfony.com/doc/6.0/security.html#access-control-authorization)
+* Configuration - [https://symfony.com/doc/6.0/reference/configuration/security.html](https://symfony.com/doc/6.0/reference/configuration/security.html)
+* Providers - [https://symfony.com/doc/6.0/security.html#loading-the-user-the-user-provider](https://symfony.com/doc/6.0/security.html#loading-the-user-the-user-provider)
+* Firewalls - [https://symfony.com/doc/6.0/security.html#the-firewall](https://symfony.com/doc/6.0/security.html#the-firewall)
+* Users - [https://symfony.com/doc/6.0/security.html#the-user](https://symfony.com/doc/6.0/security.html#the-user)
+* Password hashers - [https://symfony.com/doc/6.0/security.html#registering-the-user-hashing-passwords](https://symfony.com/doc/6.0/security.html#registering-the-user-hashing-passwords)
+* Roles - [https://symfony.com/doc/6.0/security.html#roles](https://symfony.com/doc/6.0/security.html#roles)
+* Access Control Rules - [https://symfony.com/doc/6.0/security/access_control.html](https://symfony.com/doc/6.0/security/access_control.html)
+* Authenticators - [https://symfony.com/doc/6.0/security/custom_authenticator.html](https://symfony.com/doc/6.0/security/custom_authenticator.html)
+* Voters and voting strategies - [https://symfony.com/doc/6.0/security/voters.html](https://symfony.com/doc/6.0/security/voters.html)
 
 ### HTTP Caching
 
@@ -195,69 +195,69 @@ This is an official topics list that has been published by Symfony. You can find
 
 #### Symfony related links
 
-* Cache types (browser, proxies and reverse-proxies) - [https://symfony.com/doc/current/http_cache.html](https://symfony.com/doc/current/http_cache.html)
-* Expiration (Expires, Cache-Control) - [https://symfony.com/doc/current/http_cache/expiration.html](https://symfony.com/doc/current/http_cache/expiration.html)
-* Validation (ETag, Last-Modified) - [https://symfony.com/doc/current/http_cache/validation.html](https://symfony.com/doc/current/http_cache/validation.html)
+* Cache types (browser, proxies and reverse-proxies) - [https://symfony.com/doc/6.0/http_cache.html](https://symfony.com/doc/6.0/http_cache.html)
+* Expiration (Expires, Cache-Control) - [https://symfony.com/doc/6.0/http_cache/expiration.html](https://symfony.com/doc/6.0/http_cache/expiration.html)
+* Validation (ETag, Last-Modified) - [https://symfony.com/doc/6.0/http_cache/validation.html](https://symfony.com/doc/6.0/http_cache/validation.html)
 * Client side caching - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#private_browser_caches](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching#private_browser_caches)
-* Server side caching - [https://symfony.com/doc/current/http_cache.html#caching-with-a-gateway-cache](https://symfony.com/doc/current/http_cache.html#caching-with-a-gateway-cache)
-* Edge Side Includes - [https://symfony.com/doc/current/http_cache/esi.html](https://symfony.com/doc/current/http_cache/esi.html)
+* Server side caching - [https://symfony.com/doc/6.0/http_cache.html#caching-with-a-gateway-cache](https://symfony.com/doc/6.0/http_cache.html#caching-with-a-gateway-cache)
+* Edge Side Includes - [https://symfony.com/doc/6.0/http_cache/esi.html](https://symfony.com/doc/6.0/http_cache/esi.html)
 
 ### Console
 
-* Built-in commands - [https://symfony.com/doc/current/components/console/usage.html#built-in-commands](https://symfony.com/doc/current/components/console/usage.html#built-in-commands)
-* Custom commands - [https://symfony.com/doc/current/console.html#creating-a-command](https://symfony.com/doc/current/console.html#creating-a-command)
-* Configuration - [https://symfony.com/doc/current/console.html#configuring-the-command](https://symfony.com/doc/current/console.html#configuring-the-command)
-* Options and arguments - [https://symfony.com/doc/current/console/input.html](https://symfony.com/doc/current/console/input.html)
+* Built-in commands - [https://symfony.com/doc/6.0/components/console/usage.html#built-in-commands](https://symfony.com/doc/6.0/components/console/usage.html#built-in-commands)
+* Custom commands - [https://symfony.com/doc/6.0/console.html#creating-a-command](https://symfony.com/doc/6.0/console.html#creating-a-command)
+* Configuration - [https://symfony.com/doc/6.0/console.html#configuring-the-command](https://symfony.com/doc/6.0/console.html#configuring-the-command)
+* Options and arguments - [https://symfony.com/doc/6.0/console/input.html](https://symfony.com/doc/6.0/console/input.html)
 * Input and Output objects
-  * Input - [https://symfony.com/doc/current/console.html#console-input](https://symfony.com/doc/current/console.html#console-input)
-  * Output - [https://symfony.com/doc/current/console.html#console-output](https://symfony.com/doc/current/console.html#console-output)
+  * Input - [https://symfony.com/doc/6.0/console.html#console-input](https://symfony.com/doc/6.0/console.html#console-input)
+  * Output - [https://symfony.com/doc/6.0/console.html#console-output](https://symfony.com/doc/6.0/console.html#console-output)
 * Built-in helpers
-  * Question Helper - [https://symfony.com/doc/current/components/console/helpers/questionhelper.html](https://symfony.com/doc/current/components/console/helpers/questionhelper.html)
-  * Formatter Helper - [https://symfony.com/doc/current/components/console/helpers/formatterhelper.html](https://symfony.com/doc/current/components/console/helpers/formatterhelper.html)
-  * Progress Bar - [https://symfony.com/doc/current/components/console/helpers/progressbar.html](https://symfony.com/doc/current/components/console/helpers/progressbar.html)
-  * Table - [https://symfony.com/doc/current/components/console/helpers/table.html](https://symfony.com/doc/current/components/console/helpers/table.html)
-  * Debug Formatter Helper - [https://symfony.com/doc/current/components/console/helpers/debug_formatter.html](https://symfony.com/doc/current/components/console/helpers/debug_formatter.html)
-  * Cursor Helper - [https://symfony.com/doc/current/components/console/helpers/cursor.html](https://symfony.com/doc/current/components/console/helpers/cursor.html)
-* Console events - [https://symfony.com/doc/current/components/console/events.html](https://symfony.com/doc/current/components/console/events.html)
-* Verbosity levels - [https://symfony.com/doc/current/console/verbosity.html](https://symfony.com/doc/current/console/verbosity.html)
+  * Question Helper - [https://symfony.com/doc/6.0/components/console/helpers/questionhelper.html](https://symfony.com/doc/6.0/components/console/helpers/questionhelper.html)
+  * Formatter Helper - [https://symfony.com/doc/6.0/components/console/helpers/formatterhelper.html](https://symfony.com/doc/6.0/components/console/helpers/formatterhelper.html)
+  * Progress Bar - [https://symfony.com/doc/6.0/components/console/helpers/progressbar.html](https://symfony.com/doc/6.0/components/console/helpers/progressbar.html)
+  * Table - [https://symfony.com/doc/6.0/components/console/helpers/table.html](https://symfony.com/doc/6.0/components/console/helpers/table.html)
+  * Debug Formatter Helper - [https://symfony.com/doc/6.0/components/console/helpers/debug_formatter.html](https://symfony.com/doc/6.0/components/console/helpers/debug_formatter.html)
+  * Cursor Helper - [https://symfony.com/doc/6.0/components/console/helpers/cursor.html](https://symfony.com/doc/6.0/components/console/helpers/cursor.html)
+* Console events - [https://symfony.com/doc/6.0/components/console/events.html](https://symfony.com/doc/6.0/components/console/events.html)
+* Verbosity levels - [https://symfony.com/doc/6.0/console/verbosity.html](https://symfony.com/doc/6.0/console/verbosity.html)
 
 ### Automated Tests
 
-* Unit tests with PHPUnit - [https://symfony.com/doc/current/testing.html#unit-tests](https://symfony.com/doc/current/testing.html#unit-tests)
-* Functional tests with PHPUnit - [https://symfony.com/doc/current/testing.html#integration-tests](https://symfony.com/doc/current/testing.html#integration-tests)
-* Client object - [https://symfony.com/doc/current/testing.html#write-your-first-application-test](https://symfony.com/doc/current/testing.html#write-your-first-application-test)
-* Crawler object - [https://symfony.com/doc/current/testing/dom_crawler.html](https://symfony.com/doc/current/testing/dom_crawler.html)
-* Profiler object - [https://symfony.com/doc/current/testing/profiling.html](https://symfony.com/doc/current/testing/profiling.html)
-* Framework objects access - [https://symfony.com/doc/current/testing.html#retrieving-services-in-the-test](https://symfony.com/doc/current/testing.html#retrieving-services-in-the-test)
-* Client configuration - [https://symfony.com/doc/current/components/browser_kit.html#creating-a-client](https://symfony.com/doc/current/components/browser_kit.html#creating-a-client)
-* Request and response objects introspection - [https://symfony.com/doc/current/testing.html#making-requests](https://symfony.com/doc/current/testing.html#making-requests)
-* PHPUnit bridge - [https://symfony.com/doc/current/components/phpunit_bridge.html](https://symfony.com/doc/current/components/phpunit_bridge.html)
-* Handling legacy deprecated code - [https://symfony.com/doc/current/components/phpunit_bridge.html#write-assertions-about-deprecations](https://symfony.com/doc/current/components/phpunit_bridge.html#write-assertions-about-deprecations)
+* Unit tests with PHPUnit - [https://symfony.com/doc/6.0/testing.html#unit-tests](https://symfony.com/doc/6.0/testing.html#unit-tests)
+* Functional tests with PHPUnit - [https://symfony.com/doc/6.0/testing.html#integration-tests](https://symfony.com/doc/6.0/testing.html#integration-tests)
+* Client object - [https://symfony.com/doc/6.0/testing.html#write-your-first-application-test](https://symfony.com/doc/6.0/testing.html#write-your-first-application-test)
+* Crawler object - [https://symfony.com/doc/6.0/testing/dom_crawler.html](https://symfony.com/doc/6.0/testing/dom_crawler.html)
+* Profiler object - [https://symfony.com/doc/6.0/testing/profiling.html](https://symfony.com/doc/6.0/testing/profiling.html)
+* Framework objects access - [https://symfony.com/doc/6.0/testing.html#retrieving-services-in-the-test](https://symfony.com/doc/6.0/testing.html#retrieving-services-in-the-test)
+* Client configuration - [https://symfony.com/doc/6.0/components/browser_kit.html#creating-a-client](https://symfony.com/doc/6.0/components/browser_kit.html#creating-a-client)
+* Request and response objects introspection - [https://symfony.com/doc/6.0/testing.html#making-requests](https://symfony.com/doc/6.0/testing.html#making-requests)
+* PHPUnit bridge - [https://symfony.com/doc/6.0/components/phpunit_bridge.html](https://symfony.com/doc/6.0/components/phpunit_bridge.html)
+* Handling legacy deprecated code - [https://symfony.com/doc/6.0/components/phpunit_bridge.html#write-assertions-about-deprecations](https://symfony.com/doc/6.0/components/phpunit_bridge.html#write-assertions-about-deprecations)
 
 ### Miscellaneous
 
 * Configuration (including DotEnv and ExpressionLanguage components)
-  * Configuration - [https://symfony.com/doc/current/configuration.html](https://symfony.com/doc/current/configuration.html)
-  * DotEnv - [https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables](https://symfony.com/doc/current/configuration.html#configuration-based-on-environment-variables)
-  * ExpressionLanguage - [https://symfony.com/doc/current/components/expression_language.html](https://symfony.com/doc/current/components/expression_language.html)
-* Error handling - [https://symfony.com/doc/current/controller/error_pages.html](https://symfony.com/doc/current/controller/error_pages.html)
+  * Configuration - [https://symfony.com/doc/6.0/configuration.html](https://symfony.com/doc/6.0/configuration.html)
+  * DotEnv - [https://symfony.com/doc/6.0/configuration.html#configuration-based-on-environment-variables](https://symfony.com/doc/6.0/configuration.html#configuration-based-on-environment-variables)
+  * ExpressionLanguage - [https://symfony.com/doc/6.0/components/expression_language.html](https://symfony.com/doc/6.0/components/expression_language.html)
+* Error handling - [https://symfony.com/doc/6.0/controller/error_pages.html](https://symfony.com/doc/6.0/controller/error_pages.html)
 * Code debugging
-* Deployment best practices - [https://symfony.com/doc/current/deployment.html](https://symfony.com/doc/current/deployment.html)
+* Deployment best practices - [https://symfony.com/doc/6.0/deployment.html](https://symfony.com/doc/6.0/deployment.html)
 * Cache, Process and Serializer components
-  * Cache - [https://symfony.com/doc/current/cache.html](https://symfony.com/doc/current/cache.html)
-  * Process - [https://symfony.com/doc/current/components/process.html](https://symfony.com/doc/current/components/process.html)
-  * Serializer - [https://symfony.com/doc/current/serializer.html](https://symfony.com/doc/current/serializer.html)
-* Messenger component - [https://symfony.com/doc/current/components/messenger.html](https://symfony.com/doc/current/components/messenger.html)
+  * Cache - [https://symfony.com/doc/6.0/cache.html](https://symfony.com/doc/6.0/cache.html)
+  * Process - [https://symfony.com/doc/6.0/components/process.html](https://symfony.com/doc/6.0/components/process.html)
+  * Serializer - [https://symfony.com/doc/6.0/serializer.html](https://symfony.com/doc/6.0/serializer.html)
+* Messenger component - [https://symfony.com/doc/6.0/components/messenger.html](https://symfony.com/doc/6.0/components/messenger.html)
 * Mime and Mailer components
-  * Mime - [https://symfony.com/doc/current/components/mime.html](https://symfony.com/doc/current/components/mime.html) 
-  * Mailer - [https://symfony.com/doc/current/mailer.html](https://symfony.com/doc/current/mailer.html) 
+  * Mime - [https://symfony.com/doc/6.0/components/mime.html](https://symfony.com/doc/6.0/components/mime.html) 
+  * Mailer - [https://symfony.com/doc/6.0/mailer.html](https://symfony.com/doc/6.0/mailer.html) 
 * Filesystem and Finder components
-  * Filesystem - [https://symfony.com/doc/current/components/filesystem.html](https://symfony.com/doc/current/components/filesystem.html)
-  * Finder - [https://symfony.com/doc/current/components/finder.html](https://symfony.com/doc/current/components/finder.html)
-* Lock component - [https://symfony.com/doc/current/components/lock.html](https://symfony.com/doc/current/components/lock.html)
-* Web Profiler, Web Debug Toolbar and Data collectors - [https://symfony.com/doc/current/profiler.html](https://symfony.com/doc/current/profiler.html)
-* Internationalization and localization (and Intl component) - [https://symfony.com/doc/current/translation.html](https://symfony.com/doc/current/translation.html)
-* Runtime component - [https://symfony.com/doc/current/components/runtime.html](https://symfony.com/doc/current/components/runtime.html)
+  * Filesystem - [https://symfony.com/doc/6.0/components/filesystem.html](https://symfony.com/doc/6.0/components/filesystem.html)
+  * Finder - [https://symfony.com/doc/6.0/components/finder.html](https://symfony.com/doc/6.0/components/finder.html)
+* Lock component - [https://symfony.com/doc/6.0/components/lock.html](https://symfony.com/doc/6.0/components/lock.html)
+* Web Profiler, Web Debug Toolbar and Data collectors - [https://symfony.com/doc/6.0/profiler.html](https://symfony.com/doc/6.0/profiler.html)
+* Internationalization and localization (and Intl component) - [https://symfony.com/doc/6.0/translation.html](https://symfony.com/doc/6.0/translation.html)
+* Runtime component - [https://symfony.com/doc/6.0/components/runtime.html](https://symfony.com/doc/6.0/components/runtime.html)
 
 ## About the exam
 
