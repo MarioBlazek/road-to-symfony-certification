@@ -58,16 +58,16 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### HTTP
 
-* Client / Server interaction
-* Status codes
-* HTTP request
-* HTTP response
-* HTTP methods
-* Cookies
-* Caching
-* Content negotiation
-* Language detection
-* Symfony HttpClient component
+* Client / Server interaction - [https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
+* Status codes - [https://www.rfc-editor.org/rfc/rfc9110.html#section-15](https://www.rfc-editor.org/rfc/rfc9110.html#section-15)
+* HTTP request -[https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
+* HTTP response - [https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
+* HTTP methods - [https://www.rfc-editor.org/rfc/rfc9110.html#name-methods](https://www.rfc-editor.org/rfc/rfc9110.html#name-methods)
+* Cookies - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+* Caching - [HTTP Caching](#http-caching)
+* Content negotiation - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
+* Language detection - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
+* Symfony HttpClient component - [https://symfony.com/doc/6.0/http_client.html](https://symfony.com/doc/6.0/http_client.html)
 
 ### Symfony Architecture
 
