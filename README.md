@@ -59,12 +59,12 @@ This is an official topics list that has been published by Symfony. You can find
 ### HTTP
 
 * Client / Server interaction - [https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
-* Status codes - [https://www.rfc-editor.org/rfc/rfc9110.html#section-15](https://www.rfc-editor.org/rfc/rfc9110.html#section-15)
-* HTTP request -[https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
-* HTTP response - [https://www.rfc-editor.org/rfc/rfc9110.html](https://www.rfc-editor.org/rfc/rfc9110.html)
-* HTTP methods - [https://www.rfc-editor.org/rfc/rfc9110.html#name-methods](https://www.rfc-editor.org/rfc/rfc9110.html#name-methods)
+* Status codes - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Status](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+* HTTP request -[https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_requests)
+* HTTP response - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_responses)
+* HTTP methods - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 * Cookies - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-* Caching - [HTTP Caching](#http-caching)
+* Caching - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
 * Content negotiation - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
 * Language detection - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
 * Symfony HttpClient component - [https://symfony.com/doc/6.0/http_client.html](https://symfony.com/doc/6.0/http_client.html)
