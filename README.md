@@ -63,10 +63,16 @@ This is an official topics list that has been published by Symfony. You can find
 * HTTP request -[https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_requests)
 * HTTP response - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#http_responses)
 * HTTP methods - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-* Cookies - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+* Cookies 
+    * About cookies - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
+    * Setting Cookies - [https://symfony.com/doc/6.0/components/http_foundation.html#setting-cookies](https://symfony.com/doc/6.0/components/http_foundation.html#setting-cookies)
 * Caching - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
-* Content negotiation - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
-* Language detection - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
+* Content negotiation 
+    * About content negotiation - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
+    * Quality values - [https://developer.mozilla.org/en-US/docs/Glossary/Quality_values](https://developer.mozilla.org/en-US/docs/Glossary/Quality_values)
+* Language detection 
+    * About language detection - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
+    * Locale listener - [https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php)
 * Symfony HttpClient component - [https://symfony.com/doc/6.0/http_client.html](https://symfony.com/doc/6.0/http_client.html)
 
 ### Symfony Architecture
