@@ -155,13 +155,13 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Data Validation
 
-* PHP object validation
-* Built-in validation constraints
-* Validation scopes
-* Validation groups
-* Group sequence
-* Custom callback validators
-* Violations builder
+* PHP object validation - [https://symfony.com/doc/6.0/validation.html](https://symfony.com/doc/6.0/validation.html)
+* Built-in validation constraints - [https://symfony.com/doc/6.0/validation.html#supported-constraints](https://symfony.com/doc/6.0/validation.html#supported-constraints)
+* Validation scopes - [https://symfony.com/doc/6.0/validation.html#constraint-targets](https://symfony.com/doc/6.0/validation.html#constraint-targets)
+* Validation groups - [https://symfony.com/doc/6.0/validation/groups.html](https://symfony.com/doc/6.0/validation/groups.html)
+* Group sequence - [https://symfony.com/doc/6.0/validation/sequence_provider.html](https://symfony.com/doc/6.0/validation/sequence_provider.html)
+* Custom callback validators - [https://symfony.com/doc/6.0/reference/constraints/Callback.html](https://symfony.com/doc/6.0/reference/constraints/Callback.html)
+* Violations builder - [https://symfony.com/doc/6.0/validation/custom_constraint.html](https://symfony.com/doc/6.0/validation/custom_constraint.html)
 
 ### Dependency Injection
 
