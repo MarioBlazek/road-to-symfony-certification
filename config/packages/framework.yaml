@@ -17,6 +17,22 @@ framework:
     php_errors:
         log: true
 
+    http_client:
+        default_options:
+            headers:
+                'User-Agent': 'My Fancy App'
+        scoped_clients:
+            github.client:
+                scope: 'https://api\.github\.com'
+                headers:
+                    Accept: 'application/vnd.github.v3+json'
+#                    Authorization: 'token %env(GITHUB_API_TOKEN)%'
+#            github.client:
+#                base_uri: 'https://api.github.com'
+#                headers:
+#                    Accept: 'application/vnd.github.v3+json'
+#                    Authorization: 'token %env(GITHUB_API_TOKEN)%'
+
 when@test:
     framework:
         test: true
