@@ -96,18 +96,20 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Controllers
 
-* Naming conventions
-* The base AbstractController class
-* The request
-* The response
-* The cookies
-* The session
-* The flash messages
-* HTTP redirects
-* Internal redirects
-* Generate 404 pages
-* File upload
+* Naming conventions - [https://symfony.com/doc/6.0/controller.html#a-basic-controller](https://symfony.com/doc/6.0/controller.html#a-basic-controller)
+* The base AbstractController class - [https://github.com/symfony/symfony/blob/6.0/src/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php)
+* The request - [https://symfony.com/doc/6.0/components/http_foundation.html#request](https://symfony.com/doc/6.0/components/http_foundation.html#request)
+* The response - [https://symfony.com/doc/6.0/components/http_foundation.html#response](https://symfony.com/doc/6.0/components/http_foundation.html#response)
+* The cookies - [https://symfony.com/doc/6.0/components/http_foundation.html#setting-cookies](https://symfony.com/doc/6.0/components/http_foundation.html#setting-cookies)
+* The session - [https://symfony.com/doc/6.0/components/http_foundation/sessions.html](https://symfony.com/doc/6.0/components/http_foundation/sessions.html)
+* The flash messages - [https://symfony.com/doc/6.0/controller.html#flash-messages](https://symfony.com/doc/6.0/controller.html#flash-messages)
+* HTTP redirects - [https://symfony.com/doc/6.0/controller.html#redirecting](https://symfony.com/doc/6.0/controller.html#redirecting)
+* Internal redirects - [https://symfony.com/doc/6.0/controller/forwarding.html](https://symfony.com/doc/6.0/controller/forwarding.html)
+* Generate 404 pages - [https://symfony.com/doc/6.0/controller.html#managing-errors-and-404-pages](https://symfony.com/doc/6.0/controller.html#managing-errors-and-404-pages)
+* File upload - [https://symfony.com/doc/6.0/controller/upload_file.html](https://symfony.com/doc/6.0/controller/upload_file.html)
 * Built-in internal controllers
+    * RedirectController - [https://symfony.com/doc/6.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route](https://symfony.com/doc/6.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route)
+    * TemplateController - [https://symfony.com/doc/6.0/templates.html#rendering-a-template-directly-from-a-route](https://symfony.com/doc/6.0/templates.html#rendering-a-template-directly-from-a-route)
 
 ### Routing
 
