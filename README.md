@@ -73,6 +73,8 @@ This is an official topics list that has been published by Symfony. You can find
 * Language detection 
     * About language detection - [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language)
     * Locale listener - [https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/HttpKernel/EventListener/LocaleListener.php)
+    * How to Work with the User's Locale - [https://symfony.com/doc/6.0/translation/locale.html](https://symfony.com/doc/6.0/translation/locale.html)
+    * New in Symfony 5.4: Language Negotiation - [https://symfony.com/blog/new-in-symfony-5-4-language-negotiation](https://symfony.com/blog/new-in-symfony-5-4-language-negotiation)
 * Symfony HttpClient component - [https://symfony.com/doc/6.0/http_client.html](https://symfony.com/doc/6.0/http_client.html)
 
 ### Symfony Architecture
