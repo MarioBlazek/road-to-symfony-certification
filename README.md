@@ -115,17 +115,17 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Routing
 
-* Configuration (YAML, XML, PHP & attributes/annotations)
-* Restrict URL parameters
-* Set default values to URL parameters
-* Generate URL parameters
-* Trigger redirects
-* Special internal routing attributes
-* Domain name matching
-* Conditional request matching
-* HTTP methods matching
-* User's locale guessing
-* Router debugging
+* Configuration (YAML, XML, PHP & attributes/annotations) - [https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/Routing/Annotation/Route.php](https://github.com/symfony/symfony/blob/6.0/src/Symfony/Component/Routing/Annotation/Route.php)
+* Restrict URL parameters - [https://symfony.com/doc/6.0/routing.html#route-parameters](https://symfony.com/doc/6.0/routing.html#route-parameters)
+* Set default values to URL parameters - [https://symfony.com/doc/6.0/routing.html#optional-parameters](https://symfony.com/doc/6.0/routing.html#optional-parameters)
+* Generate URL parameters - [https://symfony.com/doc/6.0/routing.html#generating-urls](https://symfony.com/doc/6.0/routing.html#generating-urls)
+* Trigger redirects - [https://symfony.com/doc/6.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route](https://symfony.com/doc/6.0/routing.html#redirecting-to-urls-and-routes-directly-from-a-route)
+* Special internal routing attributes - [https://symfony.com/doc/6.0/routing.html#special-parameters](https://symfony.com/doc/6.0/routing.html#special-parameters)
+* Domain name matching - [https://symfony.com/doc/6.0/routing.html#sub-domain-routing](https://symfony.com/doc/6.0/routing.html#sub-domain-routing)
+* Conditional request matching - [https://symfony.com/doc/6.0/routing.html#matching-expressions](https://symfony.com/doc/6.0/routing.html#matching-expressions)
+* HTTP methods matching - [https://symfony.com/doc/6.0/routing.html#matching-http-methods](https://symfony.com/doc/6.0/routing.html#matching-http-methods)
+* User's locale guessing - [https://symfony.com/doc/6.0/routing.html#localized-routes-i18n](https://symfony.com/doc/6.0/routing.html#localized-routes-i18n)
+* Router debugging - [https://symfony.com/doc/6.0/routing.html#debugging-routes](https://symfony.com/doc/6.0/routing.html#debugging-routes)
 
 ### Templating with Twig
 
