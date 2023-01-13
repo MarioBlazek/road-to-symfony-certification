@@ -90,7 +90,7 @@ This is an official topics list that has been published by Symfony. You can find
     * Built-in Symfony Events - [https://symfony.com/doc/6.0/reference/events.html](https://symfony.com/doc/6.0/reference/events.html)
     * The HttpKernel Component - [https://symfony.com/doc/6.0/components/http_kernel.html](https://symfony.com/doc/6.0/components/http_kernel.html)
     * The EventDispatcher Component - [https://symfony.com/doc/6.0/components/event_dispatcher.html](https://symfony.com/doc/6.0/components/event_dispatcher.html)
-* Official best practices - [https://symfony.com/doc/6.0/best_practices.html](https://symfony.com/doc/6.0/best_practices.html
+* Official best practices - [https://symfony.com/doc/6.0/best_practices.html](https://symfony.com/doc/6.0/best_practices.html)
 * Release management - [https://symfony.com/doc/6.0/contributing/community/releases.html](https://symfony.com/doc/6.0/contributing/community/releases.html)
 * Backward compatibility promise - [https://symfony.com/doc/6.0/contributing/code/bc.html](https://symfony.com/doc/6.0/contributing/code/bc.html)
 * Deprecations best practices - [https://symfony.com/doc/6.0/contributing/code/conventions.html#deprecating-code](https://symfony.com/doc/6.0/contributing/code/conventions.html#deprecating-code)
@@ -101,6 +101,7 @@ This is an official topics list that has been published by Symfony. You can find
     * PSR-1 - [https://www.php-fig.org/psr/psr-1/](https://www.php-fig.org/psr/psr-1/)
     * PSR-2 - [https://www.php-fig.org/psr/psr-2/](https://www.php-fig.org/psr/psr-2/)
     * PSR-4 - [https://www.php-fig.org/psr/psr-4/](https://www.php-fig.org/psr/psr-4/)
+    * PSR-12 - [https://www.php-fig.org/psr/psr-12/](https://www.php-fig.org/psr/psr-12/)
     * PSR-18 - [https://www.php-fig.org/psr/psr-18/](https://www.php-fig.org/psr/psr-18/)
 * Naming conventions - [https://symfony.com/doc/6.0/contributing/code/conventions.html](https://symfony.com/doc/6.0/contributing/code/conventions.html)
 
