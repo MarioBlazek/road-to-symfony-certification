@@ -97,7 +97,7 @@ This is an official topics list that has been published by Symfony. You can find
 * Release management and roadmap schedule - [https://symfony.com/releases](https://symfony.com/releases)
 * Framework interoperability and PSRs
     * Interoperability - [https://symfony.com/six-good-reasons#6-interoperability](https://symfony.com/six-good-reasons#6-interoperability)
-    * Coding standards - [https://symfony.com/doc/6.0/contributing/code/standards.html]
+    * Coding standards - [https://symfony.com/doc/6.0/contributing/code/standards.html](https://symfony.com/doc/6.0/contributing/code/standards.html)
     * PSR-1 - [https://www.php-fig.org/psr/psr-1/](https://www.php-fig.org/psr/psr-1/)
     * PSR-2 - [https://www.php-fig.org/psr/psr-2/](https://www.php-fig.org/psr/psr-2/)
     * PSR-4 - [https://www.php-fig.org/psr/psr-4/](https://www.php-fig.org/psr/psr-4/)
