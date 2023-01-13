@@ -79,22 +79,30 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Symfony Architecture
 
-* Symfony Flex
-* License
-* Components
-* Bridges
-* Code organization
-* Request handling
-* Exception handling
+* Symfony Flex - [https://symfony.com/doc/6.0/setup/flex.html](https://symfony.com/doc/6.0/setup/flex.html)
+* License - [https://symfony.com/doc/6.0/contributing/code/license.html](https://symfony.com/doc/6.0/contributing/code/license.html)
+* Components - [https://symfony.com/components](https://symfony.com/components)
+* Bridges - [https://stackoverflow.com/questions/11888522/what-are-symfony-bridges-bundles-and-vendor](https://stackoverflow.com/questions/11888522/what-are-symfony-bridges-bundles-and-vendor)
+* Code organization - [https://symfony.com/doc/6.0/best_practices.html#business-logic](https://symfony.com/doc/6.0/best_practices.html#business-logic)
+* Request handling - [https://symfony.com/doc/6.0/introduction/http_fundamentals.html](https://symfony.com/doc/6.0/introduction/http_fundamentals.html)
+* Exception handling - [https://symfony.com/doc/6.0/controller/error_pages.html](https://symfony.com/doc/6.0/controller/error_pages.html)
 * Event dispatcher and kernel events
-* Official best practices
-* Release management
-* Backward compatibility promise
-* Deprecations best practices
-* Framework overloading
-* Release management and roadmap schedule
+    * Built-in Symfony Events - [https://symfony.com/doc/6.0/reference/events.html](https://symfony.com/doc/6.0/reference/events.html)
+    * The HttpKernel Component - [https://symfony.com/doc/6.0/components/http_kernel.html](https://symfony.com/doc/6.0/components/http_kernel.html)
+    * The EventDispatcher Component - [https://symfony.com/doc/6.0/components/event_dispatcher.html](https://symfony.com/doc/6.0/components/event_dispatcher.html)
+* Official best practices - [https://symfony.com/doc/6.0/best_practices.html](https://symfony.com/doc/6.0/best_practices.html
+* Release management - [https://symfony.com/doc/6.0/contributing/community/releases.html](https://symfony.com/doc/6.0/contributing/community/releases.html)
+* Backward compatibility promise - [https://symfony.com/doc/6.0/contributing/code/bc.html](https://symfony.com/doc/6.0/contributing/code/bc.html)
+* Deprecations best practices - [https://symfony.com/doc/6.0/contributing/code/conventions.html#deprecating-code](https://symfony.com/doc/6.0/contributing/code/conventions.html#deprecating-code)
+* Release management and roadmap schedule - [https://symfony.com/releases](https://symfony.com/releases)
 * Framework interoperability and PSRs
-* Naming conventions
+    * Interoperability - [https://symfony.com/six-good-reasons#6-interoperability](https://symfony.com/six-good-reasons#6-interoperability)
+    * Coding standards - [https://symfony.com/doc/6.0/contributing/code/standards.html]
+    * PSR-1 - [https://www.php-fig.org/psr/psr-1/](https://www.php-fig.org/psr/psr-1/)
+    * PSR-2 - [https://www.php-fig.org/psr/psr-2/](https://www.php-fig.org/psr/psr-2/)
+    * PSR-4 - [https://www.php-fig.org/psr/psr-4/](https://www.php-fig.org/psr/psr-4/)
+    * PSR-18 - [https://www.php-fig.org/psr/psr-18/](https://www.php-fig.org/psr/psr-18/)
+* Naming conventions - [https://symfony.com/doc/6.0/contributing/code/conventions.html](https://symfony.com/doc/6.0/contributing/code/conventions.html)
 
 ### Controllers
 
