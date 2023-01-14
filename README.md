@@ -101,6 +101,7 @@ This is an official topics list that has been published by Symfony. You can find
     * PSR-1 - [https://www.php-fig.org/psr/psr-1/](https://www.php-fig.org/psr/psr-1/)
     * PSR-2 - [https://www.php-fig.org/psr/psr-2/](https://www.php-fig.org/psr/psr-2/)
     * PSR-4 - [https://www.php-fig.org/psr/psr-4/](https://www.php-fig.org/psr/psr-4/)
+    * PSR-11 - [https://www.php-fig.org/psr/psr-11/](https://www.php-fig.org/psr/psr-11/)
     * PSR-12 - [https://www.php-fig.org/psr/psr-12/](https://www.php-fig.org/psr/psr-12/)
     * PSR-18 - [https://www.php-fig.org/psr/psr-18/](https://www.php-fig.org/psr/psr-18/)
 * Naming conventions - [https://symfony.com/doc/6.0/contributing/code/conventions.html](https://symfony.com/doc/6.0/contributing/code/conventions.html)
