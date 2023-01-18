@@ -157,17 +157,17 @@ This is an official topics list that has been published by Symfony. You can find
 
 ### Forms
 
-* Forms creation
-* Forms handling
-* Form types
-* Forms rendering with Twig
-* Forms theming
-* CSRF protection
-* Handling file upload
-* Built-in form types
-* Data transformers
-* Form events
-* Form type extensions
+* Forms creation [https://symfony.com/doc/6.0/forms.html#building-forms](https://symfony.com/doc/6.0/forms.html#building-forms)
+* Forms handling - [https://symfony.com/doc/6.0/forms.html#processing-forms](https://symfony.com/doc/6.0/forms.html#processing-forms)
+* Form types - [https://symfony.com/doc/6.0/forms.html#creating-form-classes](https://symfony.com/doc/6.0/forms.html#creating-form-classes)
+* Forms rendering with Twig - [https://symfony.com/doc/6.0/form/form_customization.html](https://symfony.com/doc/6.0/form/form_customization.html)
+* Forms theming - [https://symfony.com/doc/6.0/form/form_themes.html](https://symfony.com/doc/6.0/form/form_themes.html)
+* CSRF protection - [https://symfony.com/doc/6.0/security/csrf.html#csrf-protection-in-symfony-forms](https://symfony.com/doc/6.0/security/csrf.html#csrf-protection-in-symfony-forms)
+* Handling file upload - [https://symfony.com/doc/6.0/controller/upload_file.html](https://symfony.com/doc/6.0/controller/upload_file.html)
+* Built-in form types - [https://symfony.com/doc/6.0/reference/forms/types.html](https://symfony.com/doc/6.0/reference/forms/types.html](https://symfony.com/doc/6.0/reference/forms/types.html](https://symfony.com/doc/6.0/reference/forms/types.html)
+* Data transformers - [https://symfony.com/doc/6.0/form/data_transformers.html](https://symfony.com/doc/6.0/form/data_transformers.html)
+* Form events - [https://symfony.com/doc/6.0/form/events.html](https://symfony.com/doc/6.0/form/events.html)
+* Form type extensions - [https://symfony.com/doc/6.0/form/create_form_type_extension.html](https://symfony.com/doc/6.0/form/create_form_type_extension.html)
 
 ### Data Validation
 
